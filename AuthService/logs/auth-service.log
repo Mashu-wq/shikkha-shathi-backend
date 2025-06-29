@@ -1,0 +1,18 @@
+2025-06-29T00:00:37.560-07:00  INFO 15480 --- [AuthService] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-29T00:00:37.562-07:00  INFO 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-29T00:00:37.562-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-06-29T00:00:37.563-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-06-29T00:00:37.563-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-06-29T00:00:37.564-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a04023
+2025-06-29T00:00:37.564-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@58af5b2e
+2025-06-29T00:00:37.564-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-29T00:00:37.564-07:00  INFO 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-06-29T00:00:37.580-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/users/register
+2025-06-29T00:00:37.587-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-06-29T00:00:37.589-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/users/register
+2025-06-29T00:00:37.591-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/users/register", parameters={}
+2025-06-29T00:00:37.594-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.runtimerebels.authservice.controller.UserController#registerUser(UserRegistrationRequest)
+2025-06-29T00:00:37.669-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [UserRegistrationRequest(username=Mayesha, email=m@gmail.com, password=yoyoyoyo)]
+2025-06-29T00:00:38.025-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-29T00:00:38.026-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [UserRegistrationResponse(userId=29f84f0e-8680-4b13-a747-0844cf9614f4, username=Mayesha, email=m@gmai (truncated)...]
+2025-06-29T00:00:38.035-07:00 DEBUG 15480 --- [AuthService] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
